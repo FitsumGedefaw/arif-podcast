@@ -5,6 +5,8 @@ import { GraphQLClient } from "graphql-request";
 import { useRouter } from "next/router";
 import { PodcastContext } from "@/src/context/podcastContext";
 import CardSkeleton from "@/src/components/CardSkeleton";
+import episodeDefaultImage from '@/public/images/podcast-default.jpg';
+
 interface PodcastInterface {
 	imageUrl: string;
 	name: string;
@@ -188,7 +190,7 @@ function ListenToSingleCast() {
 												<Image
 													width={200}
 													height={200}
-													src={data?.imageUrl}
+													src={data.imageUrl || episodeDefaultImage}
 													alt={data.name}
 													priority
 													className="h-full w-full object-cover"
