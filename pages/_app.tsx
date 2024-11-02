@@ -22,14 +22,14 @@ export default function App({ Component, pageProps }: AppProps) {
 	function CustomToast() {
 		return (
 			<div>
-				<h1>Welcome to v2 of MyPodcast🎉</h1>
+				<h1>Welcome to v2 of ArifPodcast🎉</h1>
 				<p>You can now Search for your favorite podcasts🚀</p>
 			</div>
 		);
 	}
 
 	useEffect(() => {
-		pathname == "/" && path.push("/explore");
+		pathname == "/" && path.push("/home");
 
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [pathname]);
