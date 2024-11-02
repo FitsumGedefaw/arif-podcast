@@ -19,7 +19,7 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 # ArifPodcast
-### Arif podcast allows you to listen your favoutite podcasts with ease.
+### Arif podcast allows you to listen your favotite podcasts with ease.
 
 ## Screenshots
 ![Screenshot (256)](https://github.com/user-attachments/assets/67da0640-88c7-4fde-93f1-afc86962d6dd)
