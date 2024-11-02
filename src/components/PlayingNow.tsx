@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
-import me from "../img/EgLF6Jmi_4x.jpg";
+import me from "@/public/images/podcast-default.jpg";
 import Image from "next/image";
 import Head from "next/head";
 import { BsRepeat1, BsPlayFill } from "react-icons/bs";
@@ -115,7 +115,7 @@ function PlayingNow() {
 										Now playing - {playSinglePodcast.name}
 									</h1>
 								) : (
-									<h1>Now playing - nothing</h1>
+									<h1>Now playing - Select an episode to play!</h1>
 								)}
 							</div>
 						</div>

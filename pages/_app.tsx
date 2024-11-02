@@ -66,7 +66,7 @@ export default function App({ Component, pageProps }: AppProps) {
 					</div>
 					<main className={`row-start-1 shrink sm:flex-[3.5]`}>
 						<Link
-							href="/explore"
+							href="/home"
 							className=" relative block text-center md:hidden"
 						>
 							<h1 className="relative mx-auto w-fit py-3 text-4xl font-medium capitalize text-white">

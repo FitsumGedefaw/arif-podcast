@@ -37,7 +37,7 @@ function Footer() {
 					</Link>
 				</div>
 				<p className="flex-1 text-center text-sm text-white sm:flex-[2]">
-					Created by <span className="text-[#1e9c52]">Kamasah Dickson</span>{" "}
+					Created by <span className="text-[#1e9c52]">Fitsum Gedefaw</span>{" "}
 					with 💚
 				</p>
 				<p className="flex-1 text-center text-sm text-white sm:flex-[2]">

@@ -22,9 +22,9 @@ function Sidebar({ location, setShowPlaying }: locationProp) {
 					: "border-[#2d0796] md:border-[#0f9c4a]"
 			} bg-[#060807] sm:sticky sm:top-0 sm:left-0 sm:h-screen sm:border-none sm:bg-transparent`}
 		>
-			<Link href="/explore" className=" relative hidden text-center md:block">
+			<Link href="/home" className=" relative hidden text-center md:block">
 				<h1 className="relative mx-auto w-fit py-3 text-4xl font-medium capitalize text-white">
-					<span className="text-[#0f9c4a]">myPo</span>dcast.
+					<span className="text-[#0f9c4a]">Arif</span>Podcast.
 					<div className="absolute -top-2 -right-3 text-[11px] text-gray-500">
 						{location}
 					</div>

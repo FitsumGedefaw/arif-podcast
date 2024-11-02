@@ -2,19 +2,20 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { BsMusicNoteBeamed } from "react-icons/bs";
 import { CiSettings } from "react-icons/ci";
+import { FaHome } from "react-icons/fa";
 
 export const sideLinks = [
 	{
-		icon: <AiOutlineSearch />,
-		name: "Search",
-		path: "/search",
-		id: "sdfsd",
+		icon: <FaHome />,
+		name: "Home",
+		path: "/home",
+		id: "sdjrpoj",
 	},
 	{
 		icon: <MdOutlineTravelExplore />,
 		name: "Explore",
 		path: "/explore",
-		id: "sdjrpoj",
+		id: "sdfsd",
 	},
 	{
 		icon: <BsMusicNoteBeamed />,
