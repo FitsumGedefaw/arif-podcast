@@ -15,9 +15,8 @@ function ExplorePage() {
 
 		const client = new GraphQLClient("https://api.taddy.org", {
 			headers: {
-				"X-USER-ID": "275",
-				"X-API-KEY":
-					"c9b56c02e3b1cbe7a56bbc09433ded1139039bcec77d335b8f5956b23d5a78471dd246321a502643d7615d8c97d0cdd01a",
+				"X-USER-ID": "2007",
+				"X-API-KEY": "1016b3e2e2154bdca6742dab5a51e9c71a699d9d528d2964233133d0b7430c661295b2addf5b72224122aa4a71f6bf17a3",	
 			},
 		});
 
